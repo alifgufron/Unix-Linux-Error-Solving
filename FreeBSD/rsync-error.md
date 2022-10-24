@@ -52,12 +52,30 @@ Installed packages to be UPGRADED:
 
 #Test Rsync
 ```
-rsync -avhe src-folder/ dst-folder/
-
+rsync -avh src-folder/ dst-folder/
 sending incremental file list
-drwxr-xr-x            512 2022/10/24 10:50:59 .
+./
+file1.txt
+file10.txt
+file11.txt
+file12.txt
+file13.txt
+file14.txt
+file15.txt
+file16.txt
+file17.txt
+file18.txt
+file19.txt
+file2.txt
+file20.txt
+file3.txt
+file4.txt
+file5.txt
+file6.txt
+file7.txt
+file8.txt
+file9.txt
 
-sent 51 bytes  received 64 bytes  230.00 bytes/sec
+sent 1.19K bytes  received 399 bytes  3.17K bytes/sec
 total size is 0  speedup is 0.00
-
 ```
